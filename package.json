@@ -16,7 +16,8 @@
     "copy:readme": "cpx README.md dist/gallery",
     "copy:changelog": "cpx CHANGELOG.md dist/gallery",
     "copy:license": "cpx LICENSE dist/gallery",
-    "test-ci": "ng test @kolkov/ngx-gallery --code-coverage --watch=false --browsers=ChromeHeadless"
+    "test-ci": "ng test @kolkov/ngx-gallery --code-coverage --watch=false --browsers=ChromeHeadless",
+    "prepare": "npm run build"
   },
   "private": false,
   "dependencies": {
