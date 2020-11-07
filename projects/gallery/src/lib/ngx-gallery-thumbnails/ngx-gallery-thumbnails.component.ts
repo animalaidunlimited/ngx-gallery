@@ -275,7 +275,7 @@ export class NgxGalleryThumbnailsComponent implements OnInit, OnChanges {
     }
   }
 
-  private getMaxIndex(): number {
+  getMaxIndex(): number {
     if (this.order === NgxGalleryOrder.Page) {
       let maxIndex = (Math.floor(this.images.length / this.getVisibleCount()) * this.columns);
 

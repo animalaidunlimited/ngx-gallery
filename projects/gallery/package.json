@@ -1,7 +1,7 @@
 {
-  "name": "@kolkov/ngx-gallery",
-  "version": "1.2.0",
-  "description": "A simple responsive native gallery component for Angular 8+",
+  "name": "@animalaidunlimited/ngx-gallery-aau",
+  "version": "1.2.4",
+  "description": "A simple responsive native gallery component for Angular 8+. Temporary fork while waiting on pull request",
   "homepage": "https://github.com/kolkov/ngx-gallery",
   "author": {
     "name": "Andrey Kolkov",

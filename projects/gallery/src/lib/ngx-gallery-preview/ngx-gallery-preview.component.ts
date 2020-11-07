@@ -443,6 +443,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
 
     setTimeout(() => {
       if (this.isLoaded(this.previewImage.nativeElement) || this.type === 'video') {
+        this.previewImage.nativeElement.load();
         this.loading = false;
         this.startAutoPlay();
         this.changeDetectorRef.markForCheck();

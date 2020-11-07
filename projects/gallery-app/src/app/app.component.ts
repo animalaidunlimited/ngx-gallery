@@ -56,18 +56,20 @@ export class AppComponent implements OnInit{
         big: 'assets/img/gallery/2-big.jpeg'
       },
       {
+        small: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4',
+        medium: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4',
+        big: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4',
+        type: 'video'
+      },
+      {
         small: 'assets/img/gallery/3-small.jpeg',
         medium: 'assets/img/gallery/3-medium.jpeg',
         big: 'assets/img/gallery/3-big.jpeg'
-      },{
+      },
+      {
         small: 'assets/img/gallery/4-small.jpeg',
         medium: 'assets/img/gallery/4-medium.jpeg',
         big: 'assets/img/gallery/4-big.jpeg'
-      },
-      {
-        small: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4',
-        medium: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4',
-        big: 'https://html5box.com/html5gallery/images/BigBuckBunny_1.mp4'
       }
     ];
   }
